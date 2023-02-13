@@ -162,7 +162,7 @@ let vow = prompt("Enter a sentence: ")
 function onlyVowels(str){
     let x = ""
     for (let i=0; i < str.length; i ++){
-        if(str[i] === "a" || str[i] === "e" || str[i] === "u" || str[i] === "i" || str[i] === "o"){
+        if(str[i] === "a" || str[i] === "e" || str[i] === "u" || str[i] === "i" || str[i] === "o" || str[i] === "A"|| str[i] === "E"|| str[i] === "U" || str[i] === "I" || str[i] === "O"){
             x += str[i]
         }
     } return x
